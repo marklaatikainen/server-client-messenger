@@ -5,7 +5,7 @@ import java.util.List;
 
 public abstract class Packet {
 	
-	//username;time;chat_message;
+	//username;chat_message;
 	private List<String> dataList = new ArrayList<String>();
 	private PacketType packetType;
 	
