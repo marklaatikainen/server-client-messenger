@@ -37,7 +37,6 @@ public abstract class Packet {
 	protected abstract void indexOutgoingData();
 	
 	public String getOutgoingData() {
-		// request the child packets to create the raw data list to be sent to the client
 		dataList.clear();
 		indexOutgoingData();
 		return compileOutgoingData();		
